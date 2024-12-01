@@ -8,8 +8,10 @@ document.querySelector('#app').innerHTML = `
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
+
       Put everything in src folder 
     </p>
+    <p> See the figma file or unzip the draft file for designs</p>
   </div>
 `
 
