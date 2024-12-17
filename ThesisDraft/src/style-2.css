@@ -1,0 +1,490 @@
+.wrapper {
+  width: auto;
+}
+
+.nav-bar {
+  background-color: whitesmoke;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.595);
+  box-sizing: border-box;
+}
+
+.logo-holder {
+  height: 40px;
+  width: 20%;
+}
+
+img {
+  height: 50px;
+  width: 30%;
+  align-self: center;
+  padding-left: 30%;
+}
+
+.button-container {
+  background-color: antiquewhite;
+  height: 30px;
+  width: 80%;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px 10px 10px 10px;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+}
+
+.choice-btn {
+  height: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+a {
+  color: black;
+  font-size: 60%;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-normal {
+  height: 20px;
+  width: 10%;
+  text-align: center;
+}
+
+.special-btn {
+  height: 20px;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.special {
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 15% 15% 15% 15%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-color: black;
+}
+
+.special:hover {
+  color: black;
+  font-weight: normal;
+  background-color: whitesmoke;
+}
+
+.sign-in {
+  color: white;
+}
+
+.sign-in:hover {
+  color: black;
+}
+
+.register {
+  color: white;
+}
+
+.register:hover {
+  color: black;
+}
+
+.btn-normal:hover {
+  color: black;
+}
+
+.add-screen {
+  background-image: url(Image-Gallery/pexels-artem-yellow-422929671-15188440.jpg);
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.main-title {
+  height: 90px;
+  align-self: center;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
+
+.sub-title {
+  height: 50px;
+}
+
+.sub-title p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.705);
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.btn-container {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 30%;
+  box-sizing: border-box;
+}
+
+.btn-special {
+  width: 30%;
+  height: 30px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  align-content: center;
+  background-color: rgba(128, 128, 128, 0.487);
+}
+
+.btn-special a {
+  color: black;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.browse-items {
+  height: 450px;
+  display: flex;
+}
+
+.item-details {
+  width: 30%;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.item-feature {
+  height: 50px;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  width: 90%;
+  border-radius: 5px 5px 5px 5px;
+  align-content: center;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.item-images {
+  width: 70%;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item-image-1,
+.item-image-2,
+.item-image-3,
+.item-image-4 {
+  width: 45%;
+  height: 150px;
+  border: 0.5px solid black;
+}
+
+.item-image-1 {
+  background-image: url(Image-Gallery/pexels-amar-13119652.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.item-image-1 :hover {
+  background-image: url(Image-Gallery/pexels-amar-13119652.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.item-image-1 h2:hover {
+  font-size: 30px;
+}
+
+.item-image-2 {
+  background-image: url(Image-Gallery/pexels-dar-cat-67502350-29475573.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.item-image-2 :hover {
+  background-image: url(Image-Gallery/pexels-dar-cat-67502350-29475573.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.item-image-2 h2:hover {
+  font-size: 30px;
+}
+
+.item-image-3 {
+  background-image: url(Image-Gallery/pexels-kpaukshtite-4256555.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item-image-3 :hover {
+  background-image: url(Image-Gallery/pexels-kpaukshtite-4256555.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.item-image-3 h2:hover {
+  font-size: 30px;
+}
+
+.item-image-4 {
+  background-image: url(Image-Gallery/pexels-larissafarber-29022983.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item-image-4 :hover {
+  background-image: url(Image-Gallery/pexels-larissafarber-29022983.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.item-image-4 h2:hover {
+  font-size: 30px;
+}
+
+.item-image {
+  height: 450px;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item-wrapper {
+  height: 420px;
+  width: 80%;
+  box-sizing: border-box;
+  border: 0.5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.snack-big-image {
+  height: 350px;
+  width: 80%;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  background-image: url(Image-Gallery/pexels-amar-13119652.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.spices-big-image {
+  height: 350px;
+  width: 80%;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  background-image: url(Image-Gallery/pexels-dar-cat-67502350-29475573.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.baked-items-big-image {
+  height: 350px;
+  width: 80%;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  background-image: url(Image-Gallery/pexels-kpaukshtite-4256555.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.breakfast-big-image {
+  height: 350px;
+  width: 80%;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+  background-image: url(Image-Gallery/pexels-larissafarber-29022983.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.price {
+  height: 30px;
+  width: 80%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.price h2 {
+  color: black;
+  height: 20px;
+  width: 80%;
+}
+
+.item-description {
+  height: 20px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.item-description p {
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 0px 2px -1px;
+  box-sizing: border-box;
+}
+
+.big-picture {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-around;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  height: 180px;
+  width: 22.5%;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 p {
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+}
+
+.card1 {
+  background-image: url(Image-Gallery/pexels-amar-13119652.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.card2 {
+  background-image: url(Image-Gallery/pexels-dar-cat-67502350-29475573.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.card3 {
+  background-image: url(Image-Gallery/pexels-kpaukshtite-4256555.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.card4 {
+  background-image: url(Image-Gallery/pexels-larissafarber-29022983.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.comment-box {
+  background-color: whitesmoke;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.comments {
+  height: 70px;
+  width: 30%;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.comments p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 5px 3px 0px 3px;
+  box-sizing: border-box;
+}
+
+.commenter {
+  font-size: 5px;
+  font-weight: bold;
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+.site-details {
+  background-color: beige;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.detail-box {
+  width: 30%;
+}
+
+.detail-heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-container {
+  height: 90px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-container img {
+  margin: 0% 0%;
+  height: 40px;
+  width: 40px;
+}
+
+.blank-container {
+  height: 90px;
+  width: 70%;
+}

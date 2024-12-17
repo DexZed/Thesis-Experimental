@@ -1,2 +1,4 @@
 #data
 stuff
+*.csv
+*.jsonl
